@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.openfellas.webkanban" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>Webkanban</name>
+    <description>
+        This is the Webkanban app.
+    </description>
+    <author email="kristofer.eriksson@openfellas.com" href="http://openfellas.com">
+        keriksson, opefellas.com
+    </author>
+    <content src="index.html" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <feature name="ScanditSDK">
+        <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK" />
+    </feature>
+    <access origin="*" />
+    <preference name="useBrowserHistory" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+</widget>
